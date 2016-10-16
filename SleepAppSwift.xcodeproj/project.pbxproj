@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3110A29A1DA729B2003618C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A2991DA729B2003618C1 /* AppDelegate.swift */; };
-		3110A29C1DA729B2003618C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A29B1DA729B2003618C1 /* FirstViewController.swift */; };
-		3110A29E1DA729B2003618C1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A29D1DA729B2003618C1 /* SecondViewController.swift */; };
-		3110A2A11DA729B2003618C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3110A29F1DA729B2003618C1 /* Main.storyboard */; };
+		3110A29C1DA729B2003618C1 /* DoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A29B1DA729B2003618C1 /* DoctorsViewController.swift */; };
+		3110A29E1DA729B2003618C1 /* DoctorsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A29D1DA729B2003618C1 /* DoctorsDetailViewController.swift */; };
 		3110A2A31DA729B2003618C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3110A2A21DA729B2003618C1 /* Assets.xcassets */; };
 		3110A2A61DA729B2003618C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3110A2A41DA729B2003618C1 /* LaunchScreen.storyboard */; };
 		3110A2B11DA729B3003618C1 /* SleepAppSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A2B01DA729B3003618C1 /* SleepAppSwiftTests.swift */; };
 		3110A2BC1DA729B3003618C1 /* SleepAppSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A2BB1DA729B3003618C1 /* SleepAppSwiftUITests.swift */; };
+		3110A2CA1DA74150003618C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3110A2C91DA74150003618C1 /* Main.storyboard */; };
+		3110A2CC1DA74710003618C1 /* KnowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A2CB1DA74710003618C1 /* KnowledgeViewController.swift */; };
+		3110A2CE1DA74725003618C1 /* KnowledgeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A2CD1DA74725003618C1 /* KnowledgeDetailViewController.swift */; };
+		3110A2D01DA75674003618C1 /* QualityAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A2CF1DA75674003618C1 /* QualityAudioViewController.swift */; };
+		3110A2D21DA76215003618C1 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A2D11DA76215003618C1 /* RecordViewController.swift */; };
+		3110A2D41DA77396003618C1 /* RecordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A2D31DA77396003618C1 /* RecordListViewController.swift */; };
+		3110A2D61DA776AE003618C1 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110A2D51DA776AE003618C1 /* PlayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +43,8 @@
 /* Begin PBXFileReference section */
 		3110A2961DA729B2003618C1 /* SleepAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3110A2991DA729B2003618C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3110A29B1DA729B2003618C1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3110A29D1DA729B2003618C1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		3110A2A01DA729B2003618C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3110A29B1DA729B2003618C1 /* DoctorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsViewController.swift; sourceTree = "<group>"; };
+		3110A29D1DA729B2003618C1 /* DoctorsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsDetailViewController.swift; sourceTree = "<group>"; };
 		3110A2A21DA729B2003618C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3110A2A51DA729B2003618C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3110A2A71DA729B2003618C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		3110A2B71DA729B3003618C1 /* SleepAppSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepAppSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3110A2BB1DA729B3003618C1 /* SleepAppSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepAppSwiftUITests.swift; sourceTree = "<group>"; };
 		3110A2BD1DA729B3003618C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3110A2C91DA74150003618C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3110A2CB1DA74710003618C1 /* KnowledgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnowledgeViewController.swift; sourceTree = "<group>"; };
+		3110A2CD1DA74725003618C1 /* KnowledgeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnowledgeDetailViewController.swift; sourceTree = "<group>"; };
+		3110A2CF1DA75674003618C1 /* QualityAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityAudioViewController.swift; sourceTree = "<group>"; };
+		3110A2D11DA76215003618C1 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		3110A2D31DA77396003618C1 /* RecordListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordListViewController.swift; sourceTree = "<group>"; };
+		3110A2D51DA776AE003618C1 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				3110A2991DA729B2003618C1 /* AppDelegate.swift */,
-				3110A29B1DA729B2003618C1 /* FirstViewController.swift */,
-				3110A29D1DA729B2003618C1 /* SecondViewController.swift */,
-				3110A29F1DA729B2003618C1 /* Main.storyboard */,
+				3110A29B1DA729B2003618C1 /* DoctorsViewController.swift */,
+				3110A29D1DA729B2003618C1 /* DoctorsDetailViewController.swift */,
+				3110A2CB1DA74710003618C1 /* KnowledgeViewController.swift */,
+				3110A2CD1DA74725003618C1 /* KnowledgeDetailViewController.swift */,
+				3110A2CF1DA75674003618C1 /* QualityAudioViewController.swift */,
+				3110A2D11DA76215003618C1 /* RecordViewController.swift */,
+				3110A2D31DA77396003618C1 /* RecordListViewController.swift */,
+				3110A2D51DA776AE003618C1 /* PlayViewController.swift */,
+				3110A2C91DA74150003618C1 /* Main.storyboard */,
 				3110A2A21DA729B2003618C1 /* Assets.xcassets */,
 				3110A2A41DA729B2003618C1 /* LaunchScreen.storyboard */,
 				3110A2A71DA729B2003618C1 /* Info.plist */,
@@ -191,18 +209,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "陆红";
 				TargetAttributes = {
 					3110A2951DA729B2003618C1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					3110A2AB1DA729B3003618C1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3110A2951DA729B2003618C1;
 					};
 					3110A2B61DA729B3003618C1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3110A2951DA729B2003618C1;
 					};
 				};
@@ -232,9 +253,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3110A2CA1DA74150003618C1 /* Main.storyboard in Resources */,
 				3110A2A61DA729B2003618C1 /* LaunchScreen.storyboard in Resources */,
 				3110A2A31DA729B2003618C1 /* Assets.xcassets in Resources */,
-				3110A2A11DA729B2003618C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3110A29E1DA729B2003618C1 /* SecondViewController.swift in Sources */,
+				3110A29E1DA729B2003618C1 /* DoctorsDetailViewController.swift in Sources */,
+				3110A2D61DA776AE003618C1 /* PlayViewController.swift in Sources */,
 				3110A29A1DA729B2003618C1 /* AppDelegate.swift in Sources */,
-				3110A29C1DA729B2003618C1 /* FirstViewController.swift in Sources */,
+				3110A2CE1DA74725003618C1 /* KnowledgeDetailViewController.swift in Sources */,
+				3110A2D41DA77396003618C1 /* RecordListViewController.swift in Sources */,
+				3110A2D21DA76215003618C1 /* RecordViewController.swift in Sources */,
+				3110A29C1DA729B2003618C1 /* DoctorsViewController.swift in Sources */,
+				3110A2D01DA75674003618C1 /* QualityAudioViewController.swift in Sources */,
+				3110A2CC1DA74710003618C1 /* KnowledgeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +324,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3110A29F1DA729B2003618C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3110A2A01DA729B2003618C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3110A2A41DA729B2003618C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -330,8 +349,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -375,8 +396,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -395,6 +418,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -407,6 +431,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zhengyu-Huang.SleepAppSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -418,6 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zhengyu-Huang.SleepAppSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -429,6 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zhengyu-Huang.SleepAppSwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepAppSwift.app/SleepAppSwift";
 			};
 			name = Debug;
@@ -441,6 +468,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zhengyu-Huang.SleepAppSwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepAppSwift.app/SleepAppSwift";
 			};
 			name = Release;
@@ -452,6 +480,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zhengyu-Huang.SleepAppSwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = SleepAppSwift;
 			};
 			name = Debug;
@@ -463,6 +492,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zhengyu-Huang.SleepAppSwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = SleepAppSwift;
 			};
 			name = Release;
@@ -486,6 +516,7 @@
 				3110A2C21DA729B3003618C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3110A2C31DA729B3003618C1 /* Build configuration list for PBXNativeTarget "SleepAppSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +525,7 @@
 				3110A2C51DA729B3003618C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3110A2C61DA729B3003618C1 /* Build configuration list for PBXNativeTarget "SleepAppSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +534,7 @@
 				3110A2C81DA729B3003618C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

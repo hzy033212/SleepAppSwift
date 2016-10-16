@@ -8,14 +8,46 @@
 
 import UIKit
 
+// Global variable
+var gloTimeArray: NSMutableArray!
+var gloRecordArray: NSMutableArray!
+
 @UIApplicationMain
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        var quality: String!
+        let currentDefaults = NSUserDefaults.standardUserDefaults()
+        
+        if currentDefaults.stringForKey("quality") == nil{
+            quality = "Low"
+            currentDefaults.setObject(quality, forKey: "quality")
+        }
+        
+        // Remove unused nsuserdefaults object, for test only
+        /* currentDefaults.removeObjectForKey("gloTimeArray")
+        currentDefaults.removeObjectForKey("gloRecordArray")
+        currentDefaults.synchronize() */
+        
+        // Only save gloTimeArray and gloRecordArray
+        if currentDefaults.objectForKey("gloTimeArray") != nil {
+            let gloTimeArrayTmp = currentDefaults.objectForKey("gloTimeArray")
+            gloTimeArray = gloTimeArrayTmp!.mutableCopy() as! NSMutableArray
+        } else {
+            gloTimeArray = NSMutableArray()
+        }
+        if currentDefaults.objectForKey("gloRecordArray") != nil {
+            let gloRecordArrayTmp = currentDefaults.objectForKey("gloRecordArray")
+            gloRecordArray = gloRecordArrayTmp!.mutableCopy() as! NSMutableArray
+        } else {
+            gloRecordArray = NSMutableArray()
+        }
+        
         return true
     }
 
